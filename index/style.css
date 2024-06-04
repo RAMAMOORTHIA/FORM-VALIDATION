@@ -1,0 +1,109 @@
+
+
+
+.backgroundimg{
+    background-image:
+    linear-gradient(to bottom, rgba(2, 2, 2, 0.87), rgba(8, 10, 19, 0.281)),
+    url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width:auto;
+    height: 100vh;
+    overflow: hidden;
+    overflow-x: hidden;
+    background-size:bottom cover;
+}
+.firsth1{
+    color: white;
+    margin-top: 20%;
+    
+}
+ p.firstp{
+    color: white;
+    width: 69%;
+    margin-top: 20px;
+    font-weight: 300;
+    
+
+}
+.whitebutton{
+    margin-top: 10px;
+}
+.redbutton{
+    margin-top: 10px;
+}
+     /* card section */
+.cardpading {
+    padding: 100px;
+   
+    
+}
+.card1{
+    position: absolute !important;
+}
+.clippath{
+    
+    
+    background-color:white;
+    margin-right: 100px;
+    position: absolute;
+    width: 352px;
+    height: 379px;
+    clip-path: polygon(10% 46%, 100% 31%, 100% 100%, 10% 100%);
+
+    box-shadow: 35px 33px 7px 16px rgba(0,0,0,0.61);
+    padding-top: 204px;
+}
+#clippathheading {
+    margin-left:50px;
+}
+#clippathid{
+    margin-left:50px;  
+}
+#clippathlink{
+    margin-left:70%;  
+
+}
+
+.clippath:hover {
+    background-color: red;
+    color: white;
+}
+a:hover{
+    color: white;
+}
+
+/* car boking */
+.carbooking{
+
+    background-image:
+    linear-gradient(to bottom, rgba(2, 2, 2, 0.87), rgba(8, 10, 19, 0.281)),
+    url('background.jpg');
+}
+.formbackground{
+    width: 100%;
+    background-color: black;
+    height: 10%;
+}
+.carbokingdotimage{
+    margin-top: 20%;
+    color: white;
+    padding: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+    .container1  {
+      width: 90% !important;
+    }
+  }
+  .error{
+    color:red;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .form-group.success input{
+    border-color: green;
+  }
+  .form-group.error input{
+    border-color: red;
+  }
